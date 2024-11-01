@@ -9,7 +9,6 @@ grafo = {
     'E': ['F'],
     'F': []
 }
-
 def busqueda_en_anchura(grafo, inicio):
     visitados = set()  # Nodos visitados
     cola = deque([inicio])  # Cola de búsqueda (FIFO)
