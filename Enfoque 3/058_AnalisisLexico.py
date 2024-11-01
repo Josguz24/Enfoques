@@ -28,6 +28,7 @@ class LexicalAnalyzer:
             print(f"{token[0]}: {token[1]}")
 
 # Crear un analizador léxico
+
 analyzer = LexicalAnalyzer()
 sample_text = "x = 3 + 5 * (y - 2)"
 analyzer.analyze(sample_text)
