@@ -14,6 +14,7 @@ grafo = {
 def busqueda_bidireccional(grafo, inicio, objetivo):
     # Colas para la búsqueda desde ambos extremos
     cola_inicio = deque([inicio])  # Desde el nodo inicial
+    
     cola_objetivo = deque([objetivo])  # Desde el nodo objetivo
     
     # Conjuntos de nodos visitados
