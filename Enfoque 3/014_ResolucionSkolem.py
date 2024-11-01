@@ -1,4 +1,5 @@
 
+
 # Definición de una proposición en forma normal prenex
 def skolemize(formula):
     # Aquí simplemente se representa un proceso simplificado de skolemización
