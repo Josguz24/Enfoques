@@ -21,6 +21,7 @@ def heuristica_euclidiana(nodo1, nodo2):
     return distancia
 
 # Ejemplo de uso de la heurística
+
 inicio = 'A'
 objetivo = 'F'
 print(f"Distancia heurística entre '{inicio}' y '{objetivo}': {heuristica_euclidiana(inicio, objetivo):.2f}")
