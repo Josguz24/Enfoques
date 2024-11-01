@@ -8,6 +8,7 @@ def probabilidad_a_priori(eventos):
     probabilidad_eventos = {evento: eventos.count(evento) / total_eventos for evento in set(eventos)}
     return probabilidad_eventos
 
+
 # Ejemplo de uso
 probabilidades = probabilidad_a_priori(eventos)
 print("Probabilidades a Priori:", probabilidades)
