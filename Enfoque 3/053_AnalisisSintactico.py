@@ -31,6 +31,7 @@ class Parser:
             return int(token)
         raise ValueError("Token inválido")
 
+
 # Crear un analizador sintáctico
 parser = Parser()
 expression = "3 + 5 * (2 - 8)"
