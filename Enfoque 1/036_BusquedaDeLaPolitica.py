@@ -42,5 +42,6 @@ def busqueda_de_la_politica():
         mejorar_politica()
     return politica
 # Ejemplo de uso
+
 politica_optima = busqueda_de_la_politica()
 print("Política óptima encontrada:", politica_optima)
