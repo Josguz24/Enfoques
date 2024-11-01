@@ -13,6 +13,7 @@ def unify(term1, term2):
 term_a = 'X'
 term_b = 'John'
 
+
 # Intentar unificar
 result = unify(term_a, term_b)
 if result is not None:
