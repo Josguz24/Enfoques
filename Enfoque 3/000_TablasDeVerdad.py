@@ -12,7 +12,6 @@ values = list(itertools.product([True, False], repeat=len(variables)))
 
 # Crear una tabla de verdad
 table = []
-
 for value in values:
     row = list(value)
     row.append(evaluate_expression(*value))  # Evaluar la expresión
