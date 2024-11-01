@@ -13,7 +13,6 @@ recompensas = {'A': 0, 'B': 1, 'C': -1, 'D': 5}
 # Parámetros
 gamma = 0.9  # Factor de descuento
 iteraciones = 10
-
 # Inicialización de valores y política
 valores = {estado: 0 for estado in estados}
 politica = {estado: 'Izquierda' for estado in estados}
