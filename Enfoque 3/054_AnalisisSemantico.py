@@ -29,6 +29,5 @@ statements = [
 
 # Realizar el análisis semántico
 analyzer.analyze(statements)
-
 # Mostrar las variables
 print("Variables:", analyzer.variables)
