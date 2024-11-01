@@ -28,5 +28,4 @@ def busqueda_en_profundidad_iterativa(grafo, inicio, profundidad_maxima):
         busqueda_en_profundidad_limitada(grafo, inicio, limite)
 
 # Ejemplo de uso con profundidad máxima 3
-
 busqueda_en_profundidad_iterativa(grafo, 'A', 3)
