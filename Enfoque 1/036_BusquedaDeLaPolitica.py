@@ -9,7 +9,6 @@ transiciones = {
     'D': {'Izquierda': ('B', 1.0), 'Derecha': ('C', 1.0)}
 }
 recompensas = {'A': 0, 'B': 1, 'C': -1, 'D': 5}
-
 # Parámetros
 gamma = 0.9  # Factor de descuento
 iteraciones = 10
