@@ -49,7 +49,8 @@ def iteracion_de_politicas():
         valores = evaluar_politica()
         mejorar_politica()
     return politica
-
+    
 # Ejemplo de uso
 politica_optima = iteracion_de_politicas()
 print("Política óptima encontrada:", politica_optima)
+
