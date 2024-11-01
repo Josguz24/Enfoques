@@ -1,4 +1,3 @@
-
 # Definición de estados y probabilidad de transición
 estados = ['Soleado', 'Lluvioso']
 transiciones = {
