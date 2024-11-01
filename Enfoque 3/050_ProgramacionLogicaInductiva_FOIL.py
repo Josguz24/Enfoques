@@ -13,6 +13,7 @@ class FOIL:
                 self.add_rule((premise, conclusion))
         return self.rules
 
+
 # Crear un sistema FOIL
 foil_system = FOIL()
 examples = [
