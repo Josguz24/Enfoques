@@ -9,7 +9,6 @@ evidencias = {
     'Soleado': {'Agradable': 0.9, 'Desagradable': 0.1},
     'Lluvioso': {'Agradable': 0.2, 'Desagradable': 0.8}
 }
-
 # Inicialización de las creencias
 creencias = {'Soleado': 0.5, 'Lluvioso': 0.5}
 
