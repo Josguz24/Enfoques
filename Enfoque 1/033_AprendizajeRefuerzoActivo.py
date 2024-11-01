@@ -40,5 +40,6 @@ def aprendizaje_refuerzo_activo(episodios=100):
             estado = siguiente_estado
 
 # Ejemplo de uso
+
 aprendizaje_refuerzo_activo()
 print("Valores Q después del aprendizaje:", q_valores)
