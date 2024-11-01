@@ -1,6 +1,5 @@
 
 from collections import deque
-
 # Grafo representado como un diccionario
 grafo = {
     'A': ['B', 'C'],
@@ -10,7 +9,6 @@ grafo = {
     'E': ['F'],
     'F': []
 }
-
 def busqueda_en_anchura(grafo, inicio):
     visitados = set()  # Nodos visitados
     cola = deque([inicio])  # Cola de búsqueda (FIFO)
@@ -21,6 +19,5 @@ def busqueda_en_anchura(grafo, inicio):
             print(nodo, end=" ")  # Procesar nodo
             visitados.add(nodo)
             cola.extend(grafo[nodo])  # Agregar vecinos a la cola
-
 # Ejemplo de uso
 busqueda_en_anchura(grafo, 'A')
