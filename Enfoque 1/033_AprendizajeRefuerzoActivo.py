@@ -3,7 +3,6 @@ import random
 
 # Definición de estados, acciones, recompensas y transiciones
 estados = ['A', 'B', 'C', 'D']
-
 acciones = ['Izquierda', 'Derecha']
 recompensas = {'A': 0, 'B': 1, 'C': -1, 'D': 5}
 transiciones = {
