@@ -15,6 +15,7 @@ def equilibrio_nash(pagos1, pagos2):
                 equilibrios.append((estrategias[i], estrategias[j]))
     return equilibrios
 
+
 # Ejemplo de uso
 equilibrios = equilibrio_nash(pagos_jugador1, pagos_jugador2)
 print("Equilibrios de Nash encontrados:", equilibrios)
