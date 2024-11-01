@@ -8,7 +8,6 @@ grafo = {
     'E': ['F'],
     'F': []
 }
-
 def busqueda_en_profundidad_limitada(grafo, inicio, limite, visitados=None):
     if visitados is None:
         visitados = set()
