@@ -14,6 +14,7 @@ transiciones = {
 
 # Parámetros de aprendizaje
 gamma = 0.9  # Factor de descuento
+
 alpha = 0.1  # Tasa de aprendizaje
 
 # Inicialización de valores de estados
