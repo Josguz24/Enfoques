@@ -9,6 +9,7 @@ def probabilidad_a_priori(eventos):
     return probabilidad_eventos
 
 
+
 # Ejemplo de uso
 probabilidades = probabilidad_a_priori(eventos)
 print("Probabilidades a Priori:", probabilidades)
