@@ -6,6 +6,7 @@ universo = ['Juan', 'Maria', 'Pedro']
 def es_estudiante(nombre):
     return nombre in ['Juan', 'Maria']  # Juan y Maria son estudiantes
 
+
 # Cuantificadores
 def cuantificador_existencial():
     for persona in universo:
