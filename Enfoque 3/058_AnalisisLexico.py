@@ -32,5 +32,6 @@ analyzer = LexicalAnalyzer()
 sample_text = "x = 3 + 5 * (y - 2)"
 analyzer.analyze(sample_text)
 
+
 # Mostrar los tokens
 analyzer.show_tokens()
