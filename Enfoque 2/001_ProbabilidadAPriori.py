@@ -3,6 +3,7 @@
 eventos = ['sol', 'lluvia', 'nieve', 'sol', 'sol', 'nieve', 'lluvia', 'sol', 'nieve', 'sol', 'lluvia']
 
 
+
 # Cálculo de la probabilidad a priori de cada evento
 def probabilidad_a_priori(eventos):
     total_eventos = len(eventos)
