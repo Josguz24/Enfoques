@@ -27,6 +27,7 @@ statements = [
     "x + y"
 ]
 
+
 # Realizar el análisis semántico
 analyzer.analyze(statements)
 
