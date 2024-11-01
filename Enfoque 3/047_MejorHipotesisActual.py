@@ -19,6 +19,7 @@ class HypothesisManager:
 
 # Crear un gestor de hipótesis
 manager = HypothesisManager()
+
 manager.add_hypothesis(Hypothesis("Hipótesis A", 0.85))
 
 manager.add_hypothesis(Hypothesis("Hipótesis B", 0.90))
